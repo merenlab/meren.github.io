@@ -58,10 +58,8 @@ bin_name = 'Bin_1'
 mcg = MetagenomeCentricGeneClassifier(args)
 mcg.init_samples(summary.p_meta['samples'])
 _bin = summarizer.Bin(summary, bin_name)
-mcg.init(_bin.gene_level_coverage_stats_dict, _bin.split_coverage_values_per_nt_dict)
+mcg.init(_bin.gene_level_coverage_stats_dict)
 
 mcg.init_gene_presence_absence_in_samples()
-print(mcg.gene_presence_absence_in_samples)
-
 ```
 
