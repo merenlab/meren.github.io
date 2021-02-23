@@ -240,7 +240,7 @@ This is what happens when you draw it again (note the tree that appears on the r
 
 [![31 Prochlorococcus ordered]({{images}}/prochlorococcus-pangenomics-ordered.png)]({{images}}/prochlorococcus-pangenomics-ordered.png){:.center-img .width-60}
 
-Looks more meaningful .. but still ugly.
+Looks more meaningful... but still ugly.
 
 Well, this is exactly where you need to start using the interface more efficiently. For instance, this is the same pangenome after some changes using the additional settings items in the settings panel of the interactive interface:
 
